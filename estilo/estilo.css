@@ -1,1 +1,69 @@
 /* Beatriz Arbizu Ramírez UO225211*/
+/*Colores(https://www.canva.com/colors/color-palettes/sunset-waters/):
+Rose Quartz: #F6D4D2
+Purple: #A16AE8
+Blue Iris: #4120A9
+Periwinkle: #A1A9FE*/
+/*Especificidad:001 */
+body{
+    font-family: "Trebuchet MS",Tahoma,sans-serif; 
+    background-color: #F9E2E1;
+    color: #551AA2;
+}
+/*Especificidad:001 */
+h1{
+    font-size: 3.2em;
+}
+/*Especificidad:001 */
+h2{
+     /*Hereda de body el backbackground ##F9E2E1*/
+    font-size: 1.6em;
+    color: #0B2DC1;
+}
+/*Especificidad:001 */
+h3{
+    font-size: 1.3em;
+    font-style: italic;
+}
+/*Especificidad:001 */
+header{
+    color: #F6D4D2;
+    background-color: #4120A9;
+}
+/*Especificidad:001 */
+a{
+    /*Hereda de body el backbackground ##F9E2E1*/
+    color: #551AA2;
+}
+/*Especificidad:011 */
+a:visited{
+    /*Hereda de body el backbackground ##F9E2E1*/
+    color: #4120A9;
+}
+
+/*Especificidad:002, 012 */
+nav a, nav a:visited {
+    /*Hereda de header el backbackground #4120A9*/
+    color: #F6D4D2;
+}
+/*Especificidad:012 */
+nav a:focus, nav a:hover{
+    background-color: #F6D4D2;
+    color: #4120A9;
+}
+/*Especificidad 001*/
+ol {
+    list-style-type: upper-roman;
+  }
+  /*Especificidad 001*/
+ul{
+    list-style-type:square;
+}
+/*Especidficidad 002*/
+ul ul{
+    list-style-type: circle;;
+}
+ul li:nth-child(3) {
+    /*Hereda de body el backbackground ##F9E2E1*/
+    color: #292929;
+}
