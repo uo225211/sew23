@@ -1,0 +1,101 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros SYSTEM "rutas.dtd">
+<rutas>
+    <!--Tipo de ruta (por ejemplo “Arquitectura y monumentos”, “Gastronómica”,
+    “Paisajística”, “Mixta tapas y monumentos”, “Escalada”, “Senderismo”, etc.)-->
+    <ruta tipo="Arquitectura y monumentos">
+        <nombre> La República Checa en 10 DÍAS</nombre>
+        <medioTransporte>Coche</medioTransporte>
+        <inicio>
+            <fecha>23/01/2024</fecha>
+            <hora>09:00</hora>
+            <lugar nombre="Ciudad Vieja">
+                <direccion> Michalská 510/8, 110 00 Staré Město, Chequia</dirección>           
+                <coordenadas tipo="origen">
+                    <longitud>14.420085423299167</longitud>
+                    <latitud>50.08518189196055</latitud>
+                    <altitud>399</altitud>
+                </coordenadas>
+            </lugar>
+        </inicio>
+        <duración>3 días</duración>
+        <agencia>NaturaMundo</agencia>
+        <descripcion>Si tienes un par de semanas para realizar un viaje, y el interés de visitar Praga, te propongo este fantástico destino. 
+        La República Checa es, salvo su capital, un lugar bastante desconocido. Cuando buscas información para visitar el país es difícil encontrar algo que no hable solo de Praga,
+         por eso pasé días y días organizando esta ruta por la República Checa. Fue un viaje increíble y te dejo aquí por escrito toda la información por si te apetece disfrutar de 
+         todo lo que ofrece este país. Comenzamos con esta guía de la ruta por la República Checa de 10 días.</descripcion>
+        <!--Personas adecuadas para la ruta (por ejemplo “Se puede ir con niños”, “Personas en buena forma física”, “tercera edad”, etc.)-->
+        <personasAdecuadas>Todas</personasAdecuadas>
+        <referencias>
+            <referencia>https://www.marcateunviaje.com/ruta-por-la-republica-checa/</referencia>
+            <referencia>https://es.wikipedia.org/wiki/Ciudad_vieja_(Praga)</referencia>
+            <referencia>https://www.prague.eu/es/informacion-practica/sobre-la-republica-checa-17143</referencia>
+        </referencias>
+        <!--Recomendación de la ruta de 0 a 10 (por ejemplo “7”)-->
+        <recomendacion>8</recomendacion>
+        <!--Hitos de la ruta con algún tipo de atractivo turístico (mínimo 3 hitos)-->
+        <hitos>
+            <hito>
+            <nombre>Praga</nombre>
+            <descipcionHito>Pasar 3 días visitando la hermosa ciudad de Pragra</descipcionHito>
+           <!-- Coordenadas geográficas del hito: longitud, latitud, altitud-->
+            <coordenadas tipo="hito">
+                     <longitud>14.420085423299167</longitud>
+                    <latitud>50.08518189196055</latitud>
+                    <altitud>399</altitud>
+            </coordenadas>
+            <distancia unidades="km">0</distancia>
+            <fotos>
+            <!--– Galería de fotografías del hito (mínimo 1, máximo 5)-->
+                <foto>praga1.jpg</foto>
+                <foto>praga2.jpg</foto>
+                <foto>praga3.jpg</foto>
+            </fotos>
+            <videos>
+                <video></video>
+            </videos>
+            </hito>
+            <hito>
+            <nombre>Praga</nombre>
+            <descipcionHito>Pasar 3 días visitando la hermosa ciudad de Pragra</descipcionHito>
+           <!-- Coordenadas geográficas del hito: longitud, latitud, altitud-->
+            <coordenadas tipo="hito">
+                     <longitud>14.420085423299167</longitud>
+                    <latitud>50.08518189196055</latitud>
+                    <altitud>399</altitud>
+            </coordenadas>
+            <distancia unidades="km">0</distancia>
+            <fotos>
+            <!--– Galería de fotografías del hito (mínimo 1, máximo 5)-->
+                <foto>praga1.jpg</foto>
+                <foto>praga2.jpg</foto>
+                <foto>praga3.jpg</foto>
+            </fotos>
+            <videos>
+                <video></video>
+            </videos>
+            </hito>
+            <hito>
+            <nombre>Praga</nombre>
+            <descipcionHito>Pasar 3 días visitando la hermosa ciudad de Pragra</descipcionHito>
+           <!-- Coordenadas geográficas del hito: longitud, latitud, altitud-->
+            <coordenadas tipo="hito">
+                     <longitud>14.420085423299167</longitud>
+                    <latitud>50.08518189196055</latitud>
+                    <altitud>399</altitud>
+            </coordenadas>
+            <distancia unidades="km">0</distancia>
+            <fotos>
+            <!--– Galería de fotografías del hito (mínimo 1, máximo 5)-->
+                <foto>praga1.jpg</foto>
+                <foto>praga2.jpg</foto>
+                <foto>praga3.jpg</foto>
+            </fotos>
+            <videos>
+                <video></video>
+            </videos>
+            </hito>
+        </hitos>
+    </ruta>
+</rutas>
