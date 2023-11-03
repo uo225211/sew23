@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE rutas SYSTEM "./rutas.dtd">
-<rutas>
+<rutas xmlns="http://www.uniovi.es"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.uniovi.es rutas.xsd">
     <!--Tipo
     de ruta (por ejemplo “Arquitectura y monumentos”, “Gastronómica”,
     “Paisajística”, “Mixta tapas y monumentos”, “Escalada”, “Senderismo”, etc.)-->
@@ -8,7 +9,7 @@
         <nombreRuta> La República Checa en 10 DÍAS</nombreRuta>
         <medioTransporte>Coche</medioTransporte>
         <inicio>
-            <fecha>23/01/2024</fecha>
+            <fecha>2024-01-31</fecha>
             <hora>09:00</hora>
             <lugar nombre="Ciudad Vieja">
                 <direccion> Michalská 510/8, 110 00 Staré Město, Chequia</direccion>
@@ -19,7 +20,7 @@
                 </coordenadas>
             </lugar>
         </inicio>
-        <duración>10 días</duración>
+        <duración>P10D</duración>
         <agencia>NaturaMundo</agencia>
         <descripcion>Si tienes un par de semanas para realizar un viaje, y el interés de visitar
             Praga, te propongo este fantástico destino. La República Checa es, salvo su capital, un
@@ -72,7 +73,7 @@
                     <latitud>49.9344744226256</latitud>
                     <altitud>345</altitud>
                 </coordenadas>
-                <distancia unidades="km">37,8</distancia>
+                <distancia unidades="km">37.8</distancia>
                 <fotos>
                     <!--–
                     Galería de fotografías del hito (mínimo 1, máximo 5)-->
@@ -93,7 +94,7 @@
                     <latitud>49.45375014956525</latitud>
                     <altitud>370</altitud>
                 </coordenadas>
-                <distancia unidades="km">96,3</distancia>
+                <distancia unidades="km">96.3</distancia>
                 <fotos>
                     <!--–
                     Galería de fotografías del hito (mínimo 1, máximo 5)-->
@@ -113,7 +114,7 @@
                     <latitud>48.97826791193981</latitud>
                     <altitud>381</altitud>
                 </coordenadas>
-                <distancia unidades="km">24,5</distancia>
+                <distancia unidades="km">24.5</distancia>
                 <fotos>
                     <!--–
                     Galería de fotografías del hito (mínimo 1, máximo 5)-->
@@ -135,7 +136,7 @@
                     <latitud>49.20005113588766</latitud>
                     <altitud>237</altitud>
                 </coordenadas>
-                <distancia unidades="km">76,2</distancia>
+                <distancia unidades="km">76.2</distancia>
                 <fotos>
                     <!--–
                     Galería de fotografías del hito (mínimo 1, máximo 5)-->
@@ -155,7 +156,7 @@
                     <latitud>49.591112735639996</latitud>
                     <altitud>219</altitud>
                 </coordenadas>
-                <distancia unidades="km">125,7</distancia>
+                <distancia unidades="km">125.7</distancia>
                 <fotos>
                     <!--–
                     Galería de fotografías del hito (mínimo 1, máximo 5)-->
@@ -173,7 +174,7 @@
                     <latitud>49.94756456885061</latitud>
                     <altitud>254</altitud>
                 </coordenadas>
-                <distancia unidades="km">165,5</distancia>
+                <distancia unidades="km">165.5</distancia>
                 <fotos>
                     <!--–
                     Galería de fotografías del hito (mínimo 1, máximo 5)-->
@@ -193,7 +194,7 @@
                     <latitud>50.51584806027002</latitud>
                     <altitud>150</altitud>
                 </coordenadas>
-                <distancia unidades="km">107,2</distancia>
+                <distancia unidades="km">107.2</distancia>
                 <fotos>
                     <!--–
                     Galería de fotografías del hito (mínimo 1, máximo 5)-->
@@ -208,7 +209,7 @@
         <nombreRuta>Hrensko - Puerta de Pravcice - Río Kamenice</nombreRuta>
         <medioTransporte>A pie</medioTransporte>
         <inicio>
-            <fecha>28/03/2024</fecha>
+            <fecha>2024-03-28</fecha>
             <hora>09:00</hora>
             <lugar nombre="Hrensko">
                 <direccion> Hřensko 126, 407 17 Hřensko, Chequia</direccion>
@@ -219,7 +220,7 @@
                 </coordenadas>
             </lugar>
         </inicio>
-        <duración>5 horas</duración>
+        <duración>PT5H</duración>
         <agencia>Sin Agencia</agencia>
         <descripcion>Un lindo sendero natural en el Paraíso Bohemio de la Región de Ústí.</descripcion>
         <!--Personas
@@ -246,7 +247,7 @@
                     <latitud>50.08518189196055</latitud>
                     <altitud>410</altitud>
                 </coordenadas>
-                <distancia unidades="km">4,4</distancia>
+                <distancia unidades="km">4.4</distancia>
                 <fotos>
                     <!--–
                     Galería de fotografías del hito (mínimo 1, máximo 5)-->
@@ -283,7 +284,7 @@
                     <latitud>50.08518189196055</latitud>
                     <altitud>203</altitud>
                 </coordenadas>
-                <distancia unidades="km">2,1</distancia>
+                <distancia unidades="km">2.1</distancia>
                 <fotos>
                     <!--–
                     Galería de fotografías del hito (mínimo 1, máximo 5)-->
@@ -298,7 +299,7 @@
         <nombreRuta> Praga en 3 DÍAS</nombreRuta>
         <medioTransporte>A pie</medioTransporte>
         <inicio>
-            <fecha>23/01/2024</fecha>
+            <fecha>2024-01-23</fecha>
             <hora>09:00</hora>
             <lugar nombre="Ciudad Vieja">
                 <direccion> Michalská 510/8, 110 00 Staré Město, Chequia</direccion>
@@ -309,7 +310,7 @@
                 </coordenadas>
             </lugar>
         </inicio>
-        <duración>3 días</duración>
+        <duración>P3D</duración>
         <agencia>NaturaMundo</agencia>
         <descripcion>El encanto de Praga lo descubrirás al pasear por sus pintorescas calles y fijándote en los detalles: las pinturas, los escudos, los carteles antiguos y las calles empedradas. Por eso, no solo has de quedarte con los sitios de esta ruta para visitar Praga en 3 días, también con todo lo que veas por el camino.La Ciudad Vieja y Mala Strana son barrios donde la esencia de la Praga medieval sigue viva. Cuando pasees por sus calles, será como viajar en el tiempo.</descripcion>
         <!--Personas
