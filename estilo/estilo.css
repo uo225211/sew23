@@ -45,6 +45,7 @@ a:visited{
 nav a, nav a:visited {
     /*Hereda de header el backbackground #4120A9*/
     color: #F6D4D2;
+    text-decoration:none;
 }
 /*Especificidad:012 */
 nav a:focus, nav a:hover{

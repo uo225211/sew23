@@ -1,0 +1,24 @@
+/*Expecificidad 002*/
+header+section
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+/*Expecificidad  002*/
+section hgroup{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    header+section
+        {
+        display: flex;
+        flex-direction: column;
+        }
+    
+  }

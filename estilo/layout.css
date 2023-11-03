@@ -1,14 +1,34 @@
-header
+
+/*Expecificidad 001, 002*/
+header, header+section
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-around;    
+    align-items: center;
 }
-nav {
-    align-self: center;
+/*Expecificidad 002*/
+section hgroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
   }
-  @media screen and (max-width: 600px) {
-    header {
+
+  @media screen and (max-width: 900px) {
+    /*Expecificidad 001, 002*/
+    header, header+section {
         flex-direction: column;
     }
+    /*Expecificidad 001*/
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+        justify-content: space-around;
+        padding-bottom: 1em;
+      }    
+  
   }
+
+ 
