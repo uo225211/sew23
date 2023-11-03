@@ -1,0 +1,14 @@
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav {
+    align-self: center;
+  }
+  @media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+  }

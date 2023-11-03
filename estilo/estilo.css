@@ -67,3 +67,22 @@ ul li:nth-child(3) {
     /*Hereda de body el backbackground ##F9E2E1*/
     color: #292929;
 }
+/*Especificidad 001*/
+dt{
+    font-weight: bold;
+}
+/*Especificidad 001*/
+table{
+    table-layout: fixed;
+    text-align:center;
+}
+/*Especificidad 001, 002*/
+thead, tbody th{
+    color: #0B2DC1;
+}
+/*Especificidad 001*/
+video {
+    width: 70%;
+    height: auto;
+
+    }
