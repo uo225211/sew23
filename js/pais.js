@@ -1,4 +1,5 @@
 class Pais {
+    /*
     constructor (nombrePais,nombreCapital,poblacion,formaGobierno,coordenadasCapital,religionMayoritaria){
         this.nombrePais=nombrePais;
         this.nombreCapital=nombreCapital;
@@ -7,7 +8,7 @@ class Pais {
         this.coordenadasCapital=coordenadasCapital;
         this.religionMayoritaria=religionMayoritaria;
     }
-
+*/
     constructor (nombrePais,nombreCapital,poblacion){
         this.nombrePais=nombrePais;
         this.nombreCapital=nombreCapital;
@@ -43,14 +44,19 @@ class Pais {
         return "<ul> <li> "+this.poblacion+"</li> <li>"+this.formaGobierno+"</li> <li>"+this.religionMayoritaria+"</li> </ul>";
     }
     infoCoordenadas(){
-        document.write("<p>Las coordenadas de"+this.getNombreCapital+" son: "+this.coordenadasCapital+". </p>");
+        document.write("<p>Las coordenadas de "+this.getNombreCapital()+" son: "+this.coordenadasCapital+". </p>");
     }
+
+    mostrarInfo(){
+        document.write("<p>Nombre: "+ this.getNombrePais()+"</p>");
+        document.write("<p>Capital: "+ this.getNombreCapital()+"</p>");
+        this.infoCoordenadas();
+    }
+
 }
- var republica=new Pais("Republica Checa", "Praga", "10510000", "República parlamentaria", "50.07487550135318, 14.431291625910324" ,"Cristianismo" );
+ var republica=new Pais("Republica Checa", "Praga", "10510000"  );
+ republica.rellenarDatos( "República parlamentaria","50.07487550135318, 14.431291625910324" ,"Cristianismo")
  
- 
- document.write("<p>Nombre: "+ republica.getNombrePais+"</p>");
- document.write("<p>Capital: "+ republica.getNombreCapital+"</p>");
- republica.infoCoordenadas();
+
 
  
